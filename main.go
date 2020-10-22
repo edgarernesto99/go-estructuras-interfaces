@@ -99,7 +99,7 @@ func capturarVideo(contenido *multimedia.ContenidoWeb) {
 	scaner.Scan()
 	formato = scaner.Text()
 
-	fmt.Print("Canales: ")
+	fmt.Print("Frames: ")
 	scaner.Scan()
 	frames = scaner.Text()
 	video := multimedia.Video{titulo, formato, frames}
